@@ -151,45 +151,36 @@ header {
     padding: 20px 0;
 }
 
-@media(max-width:1028px) {
+@media (max-width: 1028px) {
     .container {
-        padding: 20px;
-        /* Add some padding to the container */
+      padding: 20px; /* Add some padding to the container */
     }
-
+  
     #title {
-        text-align: center;
-        /* Center align text */
+      text-align: center; /* Center align text */
     }
-
+  
     .title-image {
-        width: 50%;
-        /* Make the image fill the width of its container */
-        height: 70;
-        /* Maintain aspect ratio */
-        display: block;
-        /* Ensure it doesn't inherit any default inline behavior */
-        margin: 0 auto 20px;
-        /* Center align the image and add some bottom margin */
+      width: 50%; /* Make the image fill half the width of its container */
+      max-width: 300px; /* Limit the maximum width of the image */
+      height: auto; /* Maintain aspect ratio */
+      display: block; /* Ensure it doesn't inherit any default inline behavior */
+      margin: 0 auto 20px; /* Center align the image and add some bottom margin */
     }
-
+  
     .col-lg-6 {
-        width: 50%;
-        /* Make both columns take full width on smaller screens */
-        display: block;
-        /* Ensure columns stack vertically on smaller screens */
-        text-align: center;
-        /* Center align text */
-        margin-bottom: 20px;
-        /* Add some bottom margin */
+      width: 100%; /* Make both columns take full width on smaller screens */
+      display: block; /* Ensure columns stack vertically on smaller screens */
+      text-align: center; /* Center align text */
+      margin-bottom: 20px; /* Add some bottom margin */
     }
-
+  
     /* Adjust font sizes for better readability on mobile */
     h1 {
-        font-size: 24px;
+      font-size: 20px; /* Reduce font size for h1 */
     }
-
+  
     h4 {
-        font-size: 16px;
+      font-size: 14px; /* Reduce font size for h4 */
     }
-}
+  }
