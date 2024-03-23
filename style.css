@@ -151,7 +151,7 @@ header {
     padding: 20px 0;
 }
 
-@media(max-width:780px) {
+@media(max-width:1028px) {
     .container {
         padding: 20px;
         /* Add some padding to the container */
