@@ -1,0 +1,159 @@
+#title {
+    /* background-color: rgb(243, 60, 90); */
+    color: grey
+}
+
+/* heading */
+.big-heading {
+    padding-top: 50px;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: beige;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: radial-gradient(rgb(248, 248, 248) 100%, transparent 100%) 0 0/ 200% 100%,
+        radial-gradient(ellipse at center, rgb(111, 110, 110) 30%, transparent 50%) 0 0/ 200% 200%;
+    background-blend-mode: multiply;
+    color: #000;
+
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+.title-image {
+    padding-left: 100px;
+    transform: rotate(10deg);
+    padding-top: 10%;
+    height: 100%;
+    width: 75%;
+    z-index: -1;
+    /* position: relative; */
+    border-radius: 100%;
+
+}
+
+.icon {
+    color: #ef8172;
+    /* padding-bottom: 50px; */
+    margin: 50px;
+}
+
+.icon:hover {
+    color: #f8082c;
+}
+
+p {
+    color: gray;
+}
+
+#features {
+    padding: 5% 15%;
+    /* background-color: pink; */
+    position: relative;
+    text-align: center;
+    z-index: -1;
+}
+
+#education {
+    text-align: center;
+    margin: auto;
+    padding-top: 5%;
+}
+
+#testimonials {
+    padding: 5% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: maroon;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding: 2%;
+}
+
+.press-logo {
+    width: 20%;
+    padding: 20px 20px 50px;
+
+}
+
+.carousel-item {
+    height: 300px;
+    padding-top: 50px;
+    /* background-color: red; */
+}
+
+#pricing {
+    padding: 70px;
+    text-align: center;
+}
+
+.pricing-col {
+    padding: 3% 2%;
+}
+
+#cta {
+    background-color: palevioletred;
+    color: white;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.download-button {
+    /* padding: 5% 5% 5% 5%; */
+    margin: 5% 1% 5%;
+}
+
+header {
+    background-color: #fcfcfc;
+    /* Dark background color */
+    color: #969595;
+    /* Text color */
+    padding: 20px;
+    /* Padding for spacing */
+    margin-top: 20px;
+    /* Add margin on top */
+}
+
+
+#footer {
+    /* text-align: center;
+    padding: 15% 15%; */
+    margin-top: auto;
+    /* Push the footer to the bottom */
+    text-align: center;
+    /* Center-align the content within the footer */
+    /* background-color: #f0f0f0; */
+    /* Add background color */
+    padding: 20px 0;
+}
+
+@media(max-width:1028px) {
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
